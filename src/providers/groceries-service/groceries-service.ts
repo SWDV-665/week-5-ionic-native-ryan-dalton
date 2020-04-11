@@ -47,6 +47,10 @@ export class GroceriesServiceProvider {
     this.items.splice(index, 1);
   }
 
+  shareItem(index){
+    this.items.splice(index, 1);
+  }
+
   addItem(item) {
       this.items.push(item);
     }
